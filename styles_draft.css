@@ -1,0 +1,53 @@
+
+body {
+  font-family: arial;
+  margin: 10px;
+  background-image:url('plant.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+div {
+min-height: 10vh;
+width: 100vw;
+
+}
+h1, h2 {
+
+text-align: center;
+
+}
+h1 {
+
+font-size: 4em;
+
+}
+h2 {
+  font-size: 1.5em;
+}
+img{
+  border-radius: 10%;
+  height: 150px;
+  width: 200px;
+}
+.grid-container {
+  position:relative;
+  display: grid;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  grid-template-columns: 300px 300px;
+}
+.grid-item1{
+  position:static;
+  bottom: 60px;
+  right: 50px;
+  color: white;
+}
+
+p {
+  width: 40%;
+  margin: 0 0vw 0vh 0vw;
+  font-size: 1em;
+}
