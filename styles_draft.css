@@ -2,11 +2,11 @@
 body {
   font-family: arial;
   margin: 10px;
-  background-image:url('image1.jpeg');
+  background-image:url('image9.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  color: white;
+  color: black;
 }
 
 div {
@@ -33,17 +33,15 @@ img{
   width: 200px;
 }
 .grid-container {
-  position:relative;
   display: grid;
   grid-row-gap: 50px;
   grid-column-gap: 50px;
   grid-template-columns: 300px 300px;
 }
-.grid-item1{
-  position:static;
-  bottom: 60px;
-  right: 50px;
-  color: white;
+
+.grid-item {
+  width: 200px;
+  height: 150px;
 }
 
 p {
