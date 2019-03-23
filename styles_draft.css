@@ -7,10 +7,11 @@ body {
   background-size: cover;
   background-position: center;
   color: black;
+
 }
 
 div {
-min-height: 10vh;
+min-height: 20vh;
 width: 100vw;
 
 }
@@ -27,25 +28,41 @@ font-size: 4em;
 h2 {
   font-size: 1.5em;
 }
+h3 {
+  font-size: 1.5em;
+}
 img{
-  border-radius: 10%;
+  border-radius: 35%;
   height: 150px;
   width: 200px;
+  border:1px solid black;
+  border-style: solid;
+  border-radius: 100px 0px 100px 0px;
+  border-width: medium;
 }
 .grid-container {
+  margin: 90px;
   display: grid;
-  grid-row-gap: 50px;
-  grid-column-gap: 50px;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3,100px);
+  height: 400px;
+  width: 100px;
+  grid-gap: 150px;
+  grid-template-areas:
+    "a b"
+    "c d";
 }
 
-.grid-item {
-  width: 200px;
-  height: 150px;
 }
-
-p {
-  width: 40%;
-  margin: 0 0vw 0vh 0vw;
-  font-size: 1em;
+.grid-item1 {
+  grid-area: a;
+}
+.grid-item2 {
+  grid-area: b;
+}
+.grid-item3 {
+  grid-area: c;
+}
+.grid-item4 {
+  grid-area: d;
 }

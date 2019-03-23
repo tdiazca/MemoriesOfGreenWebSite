@@ -1,9 +1,25 @@
-.carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+
+.carousel-item{
+  margin:100px;
+  max-width:800px;
+  max-height:500px;
+}
+.carousel-inner{
+  margin:100px;
+  max-width:500px;
+  max-height:500px;
+}
+.carousel-indicators{
+  margin:100px;
+  max-width:500px;
+  max-height:500px;
+  bottom: -50px;
+}
+.carousel-control {
+  width:4%;
+}
+.carousel-control-next{
+  margin:100px;
+  max-width:500px;
+  max-height:500px;
 }
