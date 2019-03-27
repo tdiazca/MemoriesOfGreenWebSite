@@ -2,11 +2,16 @@ body {
 
   font-family: 'Libre Baskerville', serif; line-height: 4; ;
   margin: 50px;
+<<<<<<< HEAD
   background-image:url('images/stars.jpg');
+=======
+  background-image:url('plant3.jpg');
+>>>>>>> cc954005df38bb2310108947d652ac36274d08d2
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: black;
+<<<<<<< HEAD
 }
 button {
   color:lightGray;
@@ -86,6 +91,24 @@ ol{
     left: 30px;
     color:black;
 }
+=======
+
+
+}
+p { color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; }
+
+
+.punchline p { background: #f2f2f2; color: #ff4a4a; }
+
+
+.carousel-inner{
+  margin: 0;
+  padding: 0;
+  max-width:1200px;
+  max-height:500px;
+  border:1px solid white;
+}
+>>>>>>> cc954005df38bb2310108947d652ac36274d08d2
 .carousel-indicators{
   max-width:500px;
   max-height:500px;

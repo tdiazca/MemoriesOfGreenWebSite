@@ -8,12 +8,38 @@ body {
   background-position: center;
   color: black;
 }
-p { color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; }
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: solid Transparent;
+    border-width: thin;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+button:hover{
+  border: 1px solid black;
+}
 
-
-.punchline p { background: #f2f2f2; color: #ff4a4a; }
-
-
+div{
+    line-height: 1.5;
+}
+h1{
+  text-align: center;
+  font-weight: 450;
+  font-size: 2.5em;
+  margin:20px;
+}
+h2 {
+  margin-top: 60px;
+  margin-left: 220px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+ol{
+  margin-top: 40px;
+  margin-left: 210px;
   font-size: 1.2em;
   list-style-type: square;
 }
