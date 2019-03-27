@@ -2,25 +2,32 @@ body {
 
   font-family: 'Libre Baskerville', serif; line-height: 2; ;
   margin: 50px;
-  background-image:url('w1.jpg');
+  background-image:url('images/white_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: black;
-
-
+}
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid Transparent;
+  border-width: thin;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+button:hover{
+  border: 1px solid black;
 }
 div{
     line-height: 1.5;
 }
-}
-h1, h2 {
-text-align: center;
 
-}
 h1 {
+  text-align: center;
   font-weight: 450;
-  font-size: 3em;
+  font-size: 2.5em;
   margin:20px;
 
 }
@@ -39,17 +46,27 @@ h4 {
   font-style: italic;
   font-weight: bold;
 }
-h4 {
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: bold;
-}
 h5 {
+  margin:20px;
   font-size: 1.5em;
   font-style: italic;
   font-weight: bold;
 }
-
+h6 {
+  margin:20px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+p{
+  line-height: 1.5;
+  font-size: 1.2em;
+  margin:20px;
+}
+ol{
+  font-size: 1.2em;
+  list-style-type: square;
+}
 .carousel-inner{
   size:10px;
   margin: 0;
@@ -67,7 +84,7 @@ h5 {
     display:table-cell;
     top: 0;
     bottom: 80px;
-    left: 30px;
+    right: 10px;
     color:black;
 }
 .carousel-indicators{
