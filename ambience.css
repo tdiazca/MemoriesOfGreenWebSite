@@ -2,13 +2,11 @@ body {
 
   font-family: 'Libre Baskerville', serif; line-height: 4; ;
   margin: 50px;
-  background-image:url('plant3.jpg');
+  background-image:url('images/office_background.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: black;
-
-
 }
 p { color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; font-weight: 700; margin: 0 5px 24px; float: left; padding: 10px; margin: 0 5px 24px; font-family: 'Libre Baskerville', serif; }
 
@@ -16,6 +14,9 @@ p { color: #f2f2f2; background: #ff4a4a; font-size: 75px; line-height: 74px; fon
 .punchline p { background: #f2f2f2; color: #ff4a4a; }
 
 
+  font-size: 1.2em;
+  list-style-type: square;
+}
 .carousel-inner{
   margin: 0;
   padding: 0;
