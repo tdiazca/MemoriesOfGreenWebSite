@@ -1,0 +1,59 @@
+body {
+  font-family: 'Libre Baskerville',serif;
+  margin: 10px;
+  background-image:url('images/about_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  color: black;
+}
+div {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: solid Transparent;
+  border-width: thin;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+button:hover{
+  border: 1px solid black;
+}
+
+p{
+  font-size:1.8em;
+  margin:60px;
+  width:320px;
+  color:black;
+}
+h2 {
+  position:absolute;
+  bottom:120px;
+  color: black;
+  background: PaleTurquoise;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 600;
+  float: left;
+  border-radius: 60px;
+  padding: 10px;
+  font-family: 'Libre Baskerville', serif;
+}
+.punchline h2 {
+  background: PaleTurquoise;
+  color: black;
+}
+h3{
+  font-size: 25px;
+}
+ul{
+  position:absolute;
+  bottom:0px;
+  left:170px;
+}
